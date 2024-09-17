@@ -22,7 +22,7 @@ public class AIConfig {
         return OpenAiChatModel.builder()
                 .apiKey("demo")
                 .modelName("gpt-4o-mini")
-                .responseFormat("json_object")
+//                .responseFormat("json_object")
                 .build();
     }
 }
